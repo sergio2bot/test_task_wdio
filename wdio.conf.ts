@@ -85,12 +85,7 @@ export const config: Options.Testrunner = {
             excludeSwitches:['enable-automation'],
             args:['headless','disable-gpu']
         }
-    } 
-    if(mobile === 'true'){
-      capability['goog:chromeOptions']={
-        args:['window-size=390,844'],
-      }
-    }
+    };
     return capability;
    }),
 
