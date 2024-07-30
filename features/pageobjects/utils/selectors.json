@@ -1,0 +1,15 @@
+{
+    "homePage":{
+        "ACCEPT_COOKIES_BTN":"//a[text()='Allow all cookies']"
+    },
+    "openPostionsPage":{
+        "JOB_SELECTOR":"//select[contains(@class,'job-select-{string}')]",
+        "JOB_OPTION":"//option[@value='{locOrDepart}_{option}']",
+        "OPEN_POSITIONS":"//div[contains(@class,'location_{loc}') and contains(@class,'depart_{dept}')]",
+        "OPEN_POSITIONS_DISPLAYED_READ_MORE":"//div[contains(@class,'careers__open-positions__position') and not(contains(@class,'d-none'))]//a[text()='Read More']"
+    },
+    "positionDetailsPage":{
+        "GREENHOSE_IFRAME":"iframe[title='Greenhouse Job Board']"
+    }
+    
+}
