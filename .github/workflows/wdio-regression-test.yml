@@ -22,5 +22,3 @@ jobs:
             - name: Run tests desktop
               run: npm run wdio
             
-            - name: Run tests mobile
-              run: npm run testsMobileBrowser

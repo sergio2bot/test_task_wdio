@@ -28,7 +28,9 @@ Run the following command in terminal: `git -v`
 ## Test execution
  File `packages.json` contains 2 available scripts which might be used for test execution: 
  * `wdio` - executes tests in chrome with normal display size
+  Command is looking like - `npm run wdio`
  * `testsMobileBrowser` - executes test in chrome browser with window size - 390,844(iPhone Pro screen size) to mimic mobile browser
+ Command is looking like - `npm run testsMobileBrowser`
 
 
 

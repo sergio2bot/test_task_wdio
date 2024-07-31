@@ -2,9 +2,6 @@ import BasePage from "./base.page.ts";
 import Footer from './components/footer.component.ts'
 import selectors from "./utils/selectors.json" with {type:"json"};
 
-/*const selectors = {
-    ACCEPT_COOKIES_BTN:'//a[text()="Allow all cookies"]'
-} */
 
 class HomePage extends BasePage{
     footer:Footer;
